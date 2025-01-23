@@ -1,0 +1,15 @@
+Hướng dẫn cài đặt
+- Database: import file elearning.sql vào database
+- Backend : 
+	Cài đặt các thư viện : npm i . 
+	Sửa cấu hình kết nối database : export const db = mysql.createConnection({
+    host:"",
+    user:"",
+    password:"",
+    database:""
+})
+	Chạy backend: npm start
+- Frontend : 
+	Cài đặt các thư viện : npm i . 
+
+	Chạy frontend : npm run dev
